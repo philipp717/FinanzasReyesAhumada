@@ -1,0 +1,20 @@
+{
+  "name": "fami-whatsapp-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@hapi/boom": "^10.0.1",
+    "@supabase/supabase-js": "^2.49.4",
+    "@whiskeysockets/baileys": "latest",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "pino": "^9.7.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
